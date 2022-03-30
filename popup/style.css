@@ -1,0 +1,35 @@
+body {
+  min-width: 300px;
+  text-align: center;
+  background-color: #F6E7D8;
+  color: #874356;
+}
+
+h2 {
+  color: #9c1e1e;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+div {
+  font-size: 1rem;
+  background-color: #fff47d;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#phonetic {
+  color: #874356;
+  font-size: 1rem;
+  font-style: italic;
+  
+}
+
+#example {
+  font-size: 1rem;
+  background-color: #C5D8A4;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "WordLook",
+    "version": "1.0",
+    "action": {
+        "default_icon": {
+            "16": "assets/icon16.png",
+            "24": "assets/icon24.png",
+            "32": "assets/icon32.png"
+        },
+        "default_title": "Find Your Word",
+        "default_popup": "popup/popup.html"
+    },
+    "description": "Highlight a word on the webpage and open popup to look up in the dictionary!",
+    "icons": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "64": "assets/icon64.png"
+    },
+    "author": "Pranchal Sharma",
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["content.js"]
+        }
+      ]
+}
